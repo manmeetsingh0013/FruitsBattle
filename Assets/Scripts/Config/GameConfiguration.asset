@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2ee68eb5f0ef4689ad7b8775f423cd7, type: 3}
+  m_Name: GameConfiguration
+  m_EditorClassIdentifier: 
+  cardRow: 3
+  cardCol: 4
+  sprites:
+  - {fileID: 21300000, guid: 0dc6a26e320a7446b8fcaf9abb99f1a9, type: 3}
+  - {fileID: 21300000, guid: a1b79f38f602b4e2c8df25678e4e3821, type: 3}
+  - {fileID: 21300000, guid: 54cd3320913ed4bf2b602ffbacb91b6f, type: 3}
+  - {fileID: 21300000, guid: caed3d6bbcc5f49ae85f353d33b141b7, type: 3}
+  - {fileID: 21300000, guid: a98292418ef72477f9de3db9384a7c39, type: 3}
+  - {fileID: 21300000, guid: b78ba3f9f76964d35a0e4e8a1051cc14, type: 3}
+  audios:
+  - audioClip: {fileID: 8300000, guid: baea14ce9ebe4a842ba63443fc753ef7, type: 3}
+    volume: 0.7
+    audioTag: 0
+    loop: 1
+    isMusic: 1
+  - audioClip: {fileID: 8300000, guid: 6b5353edb91312a469efed4d858d1ae5, type: 3}
+    volume: 0.4
+    audioTag: 1
+    loop: 0
+    isMusic: 0
+  - audioClip: {fileID: 8300000, guid: 73440f27cdfa4754697e13650b11bd09, type: 3}
+    volume: 0.7
+    audioTag: 2
+    loop: 0
+    isMusic: 0
+  - audioClip: {fileID: 8300000, guid: 2c2de51bba22d5543bdefd90432a6b93, type: 3}
+    volume: 1
+    audioTag: 3
+    loop: 0
+    isMusic: 0
+  - audioClip: {fileID: 8300000, guid: 1e2e5d517945049019afe99bc1f663f6, type: 3}
+    volume: 1
+    audioTag: 4
+    loop: 0
+    isMusic: 0
